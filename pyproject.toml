@@ -1,0 +1,18 @@
+[project]
+name = "sailpoint-isc-async"
+version = "0.1.0"
+description = "Async-native Python wrapper for SailPoint Identity Security Cloud (ISC) APIs."
+authors = [
+    { name = "Jerome", email = "jerome@example.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "httpx>=0.24.0",
+    "pydantic>=2.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/jetdk/sailpoint-isc-async"
+Repository = "https://github.com/jetdk/sailpoint-isc-async"
