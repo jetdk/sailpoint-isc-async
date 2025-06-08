@@ -16,3 +16,10 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/jetdk/sailpoint-isc-async"
 Repository = "https://github.com/jetdk/sailpoint-isc-async"
+
+[tool.black]
+line-length = 88
+target-version = ['py313']
+
+[tool.isort]
+profile = "black"
